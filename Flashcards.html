@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="flashcards.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="business-conversation.html">Business Conversation</a></li>
+            <li><a href="grammar-quiz.html">Grammar Quiz</a></li>
+        </ul>
+    </nav>
+    <h1>Flash Cards</h1>
+    <div class="flashcards-container">
+        <div class="flashcard" onclick="flipCard(this)">
+            <div class="front">Aberration</div>
+            <div class="back">異常</div>
+        </div>
+        <div class="flashcard" onclick="flipCard(this)">
+            <div class="front">Belligerent</div>
+            <div class="back">交戦的な</div>
+        </div>
+        <!-- Add more flashcards here -->
+    </div>
+</body>
+</html>
